@@ -1,0 +1,15 @@
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\MainWindow.g.cs
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\App.g.cs
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet_MarkupCompile.cache
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet_MarkupCompile.lref
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\bin\Debug\Birkesøløbet.exe.config
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\bin\Debug\Birkesøløbet.exe
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\bin\Debug\Birkesøløbet.pdb
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\MainWindow.baml
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.g.resources
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.Properties.Resources.resources
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.csproj.GenerateResource.cache
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.exe
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.pdb
+C:\Users\Casper\Desktop\Skole projecer\Birkesøløbet\Birkesøløbet\obj\Debug\Birkesøløbet.csproj.AssemblyReference.cache

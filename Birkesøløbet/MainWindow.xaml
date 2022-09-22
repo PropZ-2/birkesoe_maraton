@@ -1,0 +1,67 @@
+﻿<Window x:Class="Birkesøløbet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Birkesøløbet"
+        mc:Ignorable="d"
+        Height="600" Width="1050"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Border Background="#2b3440" CornerRadius="10" MouseDown="Border_WindowDrag">
+
+
+
+        <Grid Margin="0,100,800,0">
+            <Grid HorizontalAlignment="Left" Height="99" Margin="0,-99,0,0" VerticalAlignment="Top" Width="250">
+                <Label Foreground="white" Content="Birke sø løbet" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18"/>
+
+
+                <Image Source="https://cdn.discordapp.com/attachments/927480405718880276/931011039967977472/SIF.png" HorizontalAlignment="Left" Height="100" Margin="250,0,-100,-1" VerticalAlignment="Top" Width="100"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="100" Margin="255,-100,-800,0" VerticalAlignment="Top" Width="795">
+                <TextBlock Foreground="White" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intast oplysninger" VerticalAlignment="Center" Margin="275,35,0,0" FontSize="24"/>
+
+
+                <Button Foreground="white" HorizontalAlignment="Right" VerticalAlignment="Top" Width="20" Height="20" Content="🞩" Background="Transparent" BorderThickness="0" Click="ButtonTerminate_Click"/>
+                <Button Foreground="white" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="20,0"  Width="20" Height="20" Content="—" Background="Transparent" BorderThickness="0" Click="ButtonMinimize_Click"/>
+
+            </Grid>
+
+            <Grid HorizontalAlignment="Left" Height="500" Margin="255,0,-800,0" VerticalAlignment="Top" Width="795">
+                <!--forklaring af de forskællige tekst fælter-->
+                <Label Foreground="white" Content="Fornavn" HorizontalAlignment="Left" Margin="35,25,0,0" VerticalAlignment="Top"/>
+                <Label Foreground="white" Content="Efternavn" HorizontalAlignment="Left" Margin="260,25,0,0" VerticalAlignment="Top"/>
+                <Label Foreground="white" Content="Adresse" HorizontalAlignment="Left" Margin="35,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.596,-0.385"/>
+                <Label Foreground="white" Content="By" HorizontalAlignment="Left" Margin="35,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.44,-4.462"/>
+                <Label Foreground="white" Content="Post Nummer" HorizontalAlignment="Left" Margin="260,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.44,-4.462"/>
+                <Label Foreground="white" Content="Teleforn" HorizontalAlignment="Left" Margin="35,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.44,-4.462"/>
+                <Label Foreground="white" Content="E-mail" HorizontalAlignment="Left" Margin="260,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.44,-4.462"/>
+
+                <!--de forskællige tekstboxe med udflydning af personlig oplysninger-->
+                <TextBox x:Name="FornavnText" Width="180" Height="20" Margin="35,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="EfternavnText" Width="180" Height="20" Margin="260,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="AdresseText" Width="180" Height="20" Margin="35,140,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="ByText" Width="180" Height="20" Margin="35,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="PostNummerText" Width="180" Height="20" Margin="260,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="TlfText" Width="180" Height="20" Margin="35,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="EmailText" Width="180" Height="20" Margin="260,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                
+                <!--De 3 check box der høre til de forskellige løb-->
+                <Label Margin="35,355,0,0" Foreground="White" Content="vælg distrancen"/>
+                <CheckBox Checked="CheckBox_Checked" Margin="35,385,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="white" Content="kort løb" />
+                <CheckBox Checked="CheckBox_Checked" Margin="260,385,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="white" Content="mellem løb" />
+                <CheckBox Checked="CheckBox_Checked" Margin="485,385,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="white" Content="langt løb" />
+
+                <!--submitter infomation til databasen af alle løber-->
+                <Button Margin="35,423,670,50" Foreground="White" Content="submit"/>
+
+            </Grid>
+        </Grid>
+
+    </Border>
+
+</Window>
